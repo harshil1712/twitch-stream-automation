@@ -153,7 +153,7 @@ app.post("/api/live-announcement", async (c) => {
       {
         role: "system",
         content: `You are a friendly assistant. You help me create social media posts. You will create social media posts everytime I do a live stream, encouraging folks to tune-in.  I'll provide you with the title and the description of the livestream. Keep the post short and fun! These are tech live streams.
-        If no title and description is provided, you should make a general post eg. "I'm live! Come hang out with me!".
+        If no title or description is provided, you should make a general post eg. "I'm live! Come hangout with me!".
         
         ONLY RETURN THE POST. NO OTHER MESSAGE. JUST THE POST CONTENT. Whereever appropriate, add a new line and emojis. Do not overuse emojis.
         Use this Live Stream links: 
